@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #1f1353, #342779);
+  color: whitesmoke;
+}
+
+header {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-family: "TikTok Sans", sans-serif;
+}
+
+main .top {
+  display: flex;
+  justify-content: center;
+}
+main .counter-display {
+  font-family: "UoqMunThenKhung", serif;
+  text-align: center;
+  border: 3px solid yellow;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+}
+main .counter-display span {
+  color: #c27ff9;
+}
+main .area {
+  width: 100%;
+  padding: 5rem;
+  position: relative;
+  height: 80vh;
+}
+main .area .box {
+  background: linear-gradient(to right, #8b49f2, #c079fa);
+  width: 5.9rem;
+  height: 3.2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 0.2rem;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+main .area .box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 5%;
+     object-position: 0% 5%;
+}
+main .area .box:active {
+  scale: 0.85;
+}
+main .area .message {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #5f11b2;
+  font-size: 2rem;
+  padding: 3rem 2rem;
+  text-wrap: none;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 2rem;
+  display: none;
+  color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
